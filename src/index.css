@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #f08000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #e57000;
+}
+
+
+@media (max-width: 320px) {
+  .dbutton {
+    padding-left: 4rem;
+    padding-right: 3.2rem;
+  }
+}
